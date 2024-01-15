@@ -20,4 +20,4 @@ Upon the initial load of the trading screen, please be patient as the app retrie
 The graph on the trading screen may initially appear empty as it requires at least two values to draw a line. The public WebSocket API used in this app may introduce a delay in providing new values. Therefore, it might take a few seconds for the graph to display meaningful data after the initial loading is complete.
 
 **Download the Android App**
-https://i.diawi.com/MKSxpt
+https://i.diawi.com/msc58S
