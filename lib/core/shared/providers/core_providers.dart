@@ -11,7 +11,7 @@ final userProvider = StateProvider<UserModel?>((ref) {
 });
 
 final authStateProvider = StreamProvider<User?>((ref) async* {
-  yield* FirebaseAuth.instance.authStateChanges()
+  yield* FirebaseAuth.instance.userChanges()
     ..listen((user) {
       ref.read(userProvider.notifier).state = UserModel(
         uid: user?.uid ?? '',

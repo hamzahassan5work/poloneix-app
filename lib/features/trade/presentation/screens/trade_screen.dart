@@ -120,9 +120,7 @@ final assetLatestPriceProvider = StateProvider<double>((ref) {
 });
 
 class _DepositFieldWidget extends ConsumerStatefulWidget {
-  const _DepositFieldWidget({
-    super.key,
-  });
+  const _DepositFieldWidget();
 
   @override
   ConsumerState<_DepositFieldWidget> createState() =>

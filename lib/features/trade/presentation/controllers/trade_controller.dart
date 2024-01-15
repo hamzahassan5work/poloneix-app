@@ -56,6 +56,12 @@ class TradeStreamController extends StreamNotifier<double> {
     );
 
     yield* stream;
+
+    // Clean up resources when the provider is disposed
+    ref.onDispose(() {
+      channel.sink.close();
+      streamController.close();
+    });
   }
 }
 
