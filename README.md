@@ -1,16 +1,23 @@
-# polonix_app_flutter
+**Flutter Trading App**
 
-A new Flutter project.
+**Introduction**
+Welcome to the Flutter Trading App! This application enables users to engage in real-time trading data exploration through an interactive graph.
 
-## Getting Started
+**Getting Started**
+To run the app from the command line, use the following command:
 
-This project is a starting point for a Flutter application.
+```bash
+flutter run --dart-define-from-file=firebase_options.json
+```
 
-A few resources to get you started if this is your first Flutter project:
+**User Authentication**
+The app features a secure authentication system allowing users to seamlessly login or register. Follow the on-screen instructions to create an account or log in with existing credentials.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Trading Screen**
+Upon the initial load of the trading screen, please be patient as the app retrieves data from a public API. The initial loading may take some time due to the API's limitations.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Note on Graph Rendering**
+The graph on the trading screen may initially appear empty as it requires at least two values to draw a line. The public WebSocket API used in this app may introduce a delay in providing new values. Therefore, it might take a few seconds for the graph to display meaningful data after the initial loading is complete.
+
+**Download the Android App**
+https://i.diawi.com/MKSxpt
