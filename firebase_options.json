@@ -1,0 +1,13 @@
+{
+    "android_apiKey": "AIzaSyDJBAD8fEkqToM4C9PrLF7r4caDs23DUmk",
+    "android_appId": "1:820545570209:android:587bb16ba15b2b814137e0",
+    "android_messagingSenderId": "820545570209",
+    "android_projectId": "poloniexapp-21875",
+    "android_storageBucket": "poloniexapp-21875.appspot.com",
+    "ios_apiKey": "AIzaSyBiajxcWf3GpS-zvR1SUE57fGITxGd6ay0",
+    "ios_appId": "1:820545570209:ios:22531a8759962a794137e0",
+    "ios_messagingSenderId": "820545570209",
+    "ios_projectId": "poloniexapp-21875",
+    "ios_storageBucket": "poloniexapp-21875.appspot.com",
+    "ios_bundleId": "com.example.polonixAppFlutter"
+}
